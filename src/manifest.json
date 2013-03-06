@@ -1,0 +1,24 @@
+{
+	"name": "百度翻译",
+	"version": "1.0",
+	"description": "鼠标划词翻译，自动识别选择的文字语言，进行中英文的互译。",
+	"icons": {
+		"16": "images/icon16.png",
+		"48": "images/icon48.png",
+		"128": "images/icon128.png"
+	},
+	"background_page": "background.html",
+	"browser_action": {
+		"default_icon": "images/icon48.png",
+		"popup": "popup.html"
+	},
+	"content_scripts": [
+		{
+			"matches": ["http://*/*"],
+			"css": ["images/inner.css"],
+			"js": ["js/xui-2.2.0.min.js", "js/inner.js"],
+			"all_frames": true
+		}
+	],
+	"permissions": ["tab", "http://*/*", "https://*/*"]
+}

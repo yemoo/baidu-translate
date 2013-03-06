@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="images/style.css" />
+		<script src="js/xui-2.2.0.min.js"></script>
+		<script src="js/popup.js"></script>
+	</head>
+	<body>
+		<h1>
+		<a href="http://fanyi.baidu.com" title="点击跳转到百度翻译"><img src="images/fanyi-logo.png" alt="百度翻译" /></a>
+		</h1>
+		<p class="sform">
+			<input type="text" id="query" />
+			<input type="button" id="searchBtn" value="翻译" />
+		</p>
+		<div id="result">
+		</div>
+		<dl class="setting">
+			<dt>
+				选项设置：
+			</dt>
+			<dd>
+				<input type="checkbox" id="closeTrans" />
+				<label for="closeTrans">
+					关闭划词翻译
+				</label>
+			</dd>
+			<dd>
+				<select id="hiddenDelay">
+					<option value="0">不隐藏</option>
+					<option value="1">1秒后</option>
+					<option value="2">2秒后</option>
+					<option value="3" selected>3秒后</option>
+					<option value="4">4秒后</option>
+					<option value="5">5秒后</option>
+					<option value="8">8秒后</option>
+				</select><label>自动隐藏翻译信息</label>
+
+			</dd>
+		</dl>
+	</body>
+</html>

@@ -1,0 +1,59 @@
+.baidu_translate_result {
+	position:absolute !important;
+	left:0;
+	top:0;
+	color: #000 !important;
+	border:1px solid #666 !important;
+	background:#fff !important;
+	padding:5px !important;
+	font-size:12px !important;
+	font-family: '微软雅黑', Arial, Tahoma, Verdana, 'Lucida Console', monospace !important;
+	display:none;
+	z-index:99999 !important;
+	line-height: 1.5 !important;
+	max-width: 600px !important;
+	max-height: 600px !important;
+	min-height: 20px !important;
+	min-width: 80px !important;
+	overflow:auto !important;
+	text-align: left !important;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+	-webkit-box-shadow:3px 3px 3px rgba(0,0,0,0.3) !important;
+	box-shadow:3px 3px 3px rgba(0,0,0,0.3) !important;
+}
+.baidu_translate_result p {
+	margin:0 !important;
+	padding: 0 !important;
+	font-size:12px !important;
+    color: #000 !important;
+}
+.baidu_translate_result #dict-content-head p{font-size:14px !important}
+.baidu_translate_result  #dict-content-main h3 {
+	padding: 4px 0 !important;
+	margin: 4px 0 !important;
+	border-bottom:1px dotted #ccc;
+	line-height: 1.5 !important;
+	font-weight: bold !important;
+	font-size:14px !important;
+	text-align: left !important;
+	text-shadow: none;
+}
+.baidu_translate_result  .item-content h4 {
+	margin: 0 !important;
+	padding:5px 0 !important;
+	line-height: 1.5 !important;
+	font-weight: bold !important;
+	font-size:13px !important;
+	text-align: left !important;
+	text-shadow: none;
+}
+.baidu_translate_result  .item-content a {
+	color: #00f !important;
+	padding: 5px 0 0 !important;
+	display:block !important;
+	border-bottom: none !important;
+}
+.chs {
+	font-size:14px !important
+}
